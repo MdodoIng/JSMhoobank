@@ -1,0 +1,85 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.text-gradient {
+    background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+   #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+    background: linear-gradient(
+      157.81deg,
+      #def9fa -43.27%,
+      #bef3f5 -21.24%,
+      #9dedf0 12.19%,
+      #7de7eb 29.82%,
+      #5ce1e6 51.94%,
+      #33bbcf 90.29%
+    );
+  }
+  .pink__gradient {
+    background: 
+    linear-gradient(90deg, #F4C4F3 0%, #FC67FA 100%);
+    filter: blur(900px);
+    border-radius: 200px;
+    transform: rotate(156.61deg);
+  }
+  
+  .white__gradient {
+    background: rgba(255, 255, 255, 0.6);
+filter: blur(750px);
+transform: rotate(176.62deg);
+  }
+  .blue__gradient {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
+  }
+
+  .feature-card:hover {
+    background: var(--black-gradient);
+    box-shadow: var(--card-shadow);
+  }
+  :root {
+    --black-gradient: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+    --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  }
+  
+  * {
+    scroll-behavior: smooth;
+  }  
+  .black-gradient{
+  background: linear-gradient(144.39deg, #ffffff -278.56%,#6d6d6d -78.47%, #11101d 91.61%);
+    }
+
+.bloom-Gradient{
+  background:linear-gradient(90deg,  #1A2980 0%, #26D0CE 100%);
+  filter: blur(650px);
+  border-radius: 200px;
+  transform: rotate(109.25deg)
+}

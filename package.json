@@ -1,0 +1,37 @@
+{
+  "name": "ntitledolder",
+  "version": "0.1.2",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "scripts": {
+    "start": "bun dev",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "react-refresh": "0.10.0",
+    "tailwindcss": "^3.1.8",
+    "typescript": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
